@@ -1,0 +1,5 @@
+Запросы на выборку из бд
+выборка всех данных по машинам в анкету select_users = "SELECT car.id_pas,`marka`,`model`,car.gosnomer,`vin`,`type_car`,`type_cat`,`power`,`photo` FROM `car` inner join `pasport` on car.id_pas=pasport.id_pasport"
+сделать в поиске выпвдающий список он почемуто не работает козел 
+
+сделать удаление и апдейт
